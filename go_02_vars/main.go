@@ -15,10 +15,24 @@ func main() {
 	// complex64 complex128
 
 	// Using var
-	var name = "Dhan" // or var name string = "Dhan"
+	// var name = "Dhan" // or var name string = "Dhan"
 	var age = 37      // or var age int = 37
+	var isCool = true // You can use const like ES6
+	isCool = false
+	var size float32 = 2.3
 
-	fmt.Println(name, age)
+	// Shorthand
+	// name := "Dhan"
+	// email := "person@email.com"
+	// size := 1.3
+
+	// Another way
+	name, email := "Dhan", "person@email.com"
+
+	fmt.Println(name, age, isCool, size, email)
 	fmt.Printf("%T\n", name)
 	fmt.Printf("%T\n", age)
+	fmt.Printf("%T\n", isCool)
+	fmt.Printf("%T\n", size)
+	fmt.Printf("%T\n", email)
 }
