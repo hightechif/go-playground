@@ -1,5 +1,5 @@
 # Go Playground
 
-My personal repository to learn Go Languange.
+My personal repository to learn Go Language.
 
 Thanks.
